@@ -10,5 +10,4 @@ plt.show()
 
 ## Scatter Plot
 plt.scatter(year, pop)
-# plt.show()
-
+plt.show()

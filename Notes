@@ -11,3 +11,12 @@ plt.scatter(gdp_cap, life_exp)
 plt.xscale('log')
 # Show plot
 plt.show()
+
+
+------------
+2) Histogram
+Get idea about data distribution
+
+help(plt.hist)
+
+use cases:  Example Age distribution
