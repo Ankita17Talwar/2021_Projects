@@ -5,9 +5,15 @@ pop = [2.159, 3.692, 5.263, 6.972]
 
 # Make a line plot: year on the x-axis, pop on the y-axis
 plt.plot(year, pop)
+
+#add Labels
+plt.xlabel('year')
+plt.ylabel('pop')
+
+
 # Display the plot with plt.show()
 plt.show()
 
 ## Scatter Plot
-plt.scatter(year, pop)
-plt.show()
+# plt.scatter(year, pop)
+# plt.show()
