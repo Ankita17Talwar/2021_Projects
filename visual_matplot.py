@@ -9,6 +9,7 @@ plt.plot(year, pop)
 #add Labels
 plt.xlabel('year')
 plt.ylabel('pop')
+plt.title('Population Projection')
 
 
 # Display the plot with plt.show()
