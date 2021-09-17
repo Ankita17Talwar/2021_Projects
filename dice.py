@@ -1,4 +1,4 @@
-# Numpy is imported, seed is set
+import  numpy as np
 
 # Starting step
 step = 50
