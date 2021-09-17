@@ -26,3 +26,10 @@ for x in range(100):
 
 # Print random_walk
 print(random_walk)
+
+# Import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
+# Plot random_walk
+plt.plot(random_walk)
+plt.show()
