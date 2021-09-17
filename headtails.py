@@ -8,3 +8,5 @@ for x in range(10):
         outcomes.append('heads')
     else:
         outcomes.append('tails')
+
+print (outcomes)
