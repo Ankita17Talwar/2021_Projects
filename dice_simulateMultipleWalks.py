@@ -56,8 +56,6 @@ plt.plot(np_aw_t)
 plt.show()
 
 print(np_aw_t)
-# Select last row from np_aw_t: ends
-ends = np_aw_t[500]
 
 
 # Select last row from np_aw_t: ends
