@@ -55,12 +55,22 @@ np_aw_t = np.transpose(np_aw)
 plt.plot(np_aw_t)
 plt.show()
 
-print(np_aw_t)
+#print(np_aw_t)
 
 
 # Select last row from np_aw_t: ends
 ends = np_aw_t[-1, :]
-
+print(ends)
 # Plot histogram of ends, display plot
 plt.hist(ends)
 plt.show()
+
+# what's the estimated chance that you'll reach 60 steps high
+# if you play this Empire State Building game
+# To calculate the chance that this end point is greater than or equal to 60,
+# you can count the number of integers in ends that are greater than or equal to 60 and divide that number by 500, the total number of simulations
+
+new_end = ends[ends>=60]
+print(new_end)
+print(type(new_end))
+print(np.count_nonzero(new_end)/500)
