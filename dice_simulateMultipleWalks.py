@@ -61,7 +61,7 @@ ends = np_aw_t[500]
 
 
 # Select last row from np_aw_t: ends
-ends = np_aw_t[[-1],:]
+ends = np_aw_t[-1, :]
 
 # Plot histogram of ends, display plot
 plt.hist(ends)
